@@ -8,7 +8,8 @@ class Shoe
   attr_reader :brand
   
   def cobble
-    
+    @condition = "new"
+    puts ""
   end 
   
 end
